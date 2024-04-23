@@ -1,0 +1,43 @@
+{
+  "name": "leave-management-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Leave Management System - Wealth OS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.ts",
+    "start": "node ./lib/main.js",
+    "dev": "npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "Damika Anupama Nanayakkara",
+  "organization": "Wealth OS",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "firebase-admin": "^12.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "nodemailer": "^6.9.11",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.25",
+    "@types/webpack-node-externals": "^3.0.4",
+    "glob": "^10.3.10",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "pretty": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "baseUrl": "./",
+  },
+  "include": [
+    "src/**/*",
+    "webpack.config.ts",
+    "@types/custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "lib"
+  ]
+}
